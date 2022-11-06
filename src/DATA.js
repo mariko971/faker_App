@@ -1,27 +1,3 @@
-// import { faker } from "@faker-js/faker";
-
-//function to create user data for our app
-// function createRandomUser() {
-//   const firstName = faker.name.firstName();
-//   const lastName = faker.name.lastName();
-//   const email = faker.helpers.unique(faker.internet.email, [
-//     firstName,
-//     lastName,
-//   ]);
-
-//   return {
-//     _id: faker.datatype.uuid(),
-//     avatar: faker.image.avatar(),
-//     email,
-//     firstName,
-//     lastName,
-//   };
-// }
-
-// Array.from({ length: 12 }).forEach(() => {
-//   users.push(createRandomUser());
-// });
-
 export const json_Data = [
   {
     _id: "3aadd496-8443-4173-8b98-c1fc39654fee",
