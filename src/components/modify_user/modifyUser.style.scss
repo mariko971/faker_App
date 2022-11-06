@@ -1,0 +1,55 @@
+.modifyUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.738);
+
+  &_close-btn {
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  &_form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    min-width: 250px;
+    background-color: #fff;
+    border-radius: 9px;
+    padding: 1rem;
+
+    h3 {
+      margin: 0;
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    input {
+      padding: 5px 0;
+      font-size: 18px;
+    }
+
+    button {
+      margin-top: 2rem;
+      border-style: none;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 9px;
+      width: 150px;
+      margin-inline: auto;
+      background-color: #000;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}

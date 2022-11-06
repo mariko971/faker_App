@@ -1,0 +1,33 @@
+.user {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr;
+  list-style: none;
+  justify-content: space-evenly;
+  padding-block: 5px;
+  padding-left: 15px;
+  border-bottom: solid 1px #efefef;
+
+  &_checkbox {
+    height: 18px;
+    margin-block: auto;
+  }
+
+  &_delete {
+    height: 28px;
+    display: flex;
+    margin-block: auto;
+    margin-left: auto;
+    cursor: pointer;
+  }
+
+  &_edit {
+    height: 28px;
+    margin: auto 1.5rem auto auto;
+    cursor: pointer;
+  }
+
+  &_avatar {
+    border-radius: 50%;
+    height: 50px;
+  }
+}
